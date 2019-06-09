@@ -1,109 +1,89 @@
 <!DOCTYPE html>
 <html>
-    <head>
-		<meta charset="utf-8" />
-		<title>Calendier VI temporaire</title>
-		<meta name="description" content="Page temporaire calendrier avec le 6 2018"/>
-		<meta name="author" content="Violaine Varicca"/>
-	    
-<script>
+<head>
+<title>Mijn stream slide ins</title>
+<script type="text/JavaScript">
 setTimeout("location.href = location.href;",5000);
 </script>
-	</head>
-	<body>
-		<div class="match">
-			<div class="opponent-1">France</div>
-			<div class="opponent-2">Pays-Bas - flash info 6</div>
-			<div class="date"></div>
-			<div class="heure"></div>
-			<div class="score1">4</div>
-			<div class="score2">0</div>
-			<div class="replay">https://www.twitch.tv/videos/313136133</div>
-		</div>
-		
-		<div class="match">
-			<div class="opponent-1">France</div>
-			<div class="opponent-2">Allemagne</div>
-			<div class="date"></div>
-			<div class="heure"></div>
-			<div class="score1">3</div>
-			<div class="score2">2</div>
-			<div class="replay">https://www.twitch.tv/videos/313420625</div>
-		</div>
-		
-		<div class="match">
-			<div class="opponent-1">France</div>
-			<div class="opponent-2">Italie</div>
-			<div class="date"></div>
-			<div class="heure"></div>
-			<div class="score1">4</div>
-			<div class="score2">0</div>
-			<div class="replay">https://www.twitch.tv/videos/313440551</div>
-		</div>
-		
-		<div class="match">
-			<div class="opponent-1">France</div>
-			<div class="opponent-2">Pologne</div>
-			<div class="date"></div>
-			<div class="heure"></div>
-			<div class="score1">4</div>
-			<div class="score2">0</div>
-			<div class="replay">https://www.twitch.tv/videos/313733618</div>
-		</div>
-		
-		<div class="match">
-			<div class="opponent-1">France</div>
-			<div class="opponent-2">Royaume-Uni</div>
-			<div class="date"></div>
-			<div class="heure"></div>
-			<div class="score1">4</div>
-			<div class="score2">0</div>
-			<div class="replay">https://www.twitch.tv/videos/313889733</div>
-		</div>
-		
-		<div class="match">
-			<div class="opponent-1">France</div>
-			<div class="opponent-2">Canada</div>
-			<div class="date"></div>
-			<div class="heure"></div>
-			<div class="score1">0</div>
-			<div class="score2">3</div>
-			<div class="replay">https://www.twitch.tv/videos/330653027</div>
-		</div>
-		
-		<!-- Demi-finale -->
-		<div class="">
-			<div class="opponent-1">France</div>
-			<div class="opponent-2"></div>
-			<div class="date">3 Nov. 2018</div>
-			<div class="heure">19h30</div>
-			<div class="score1"></div>
-			<div class="score2"></div>
-			<div class="replay"></div>
-		</div>
-		
-		
-		<!-- Medaille de bronze -->
-		<div class="">
-			<div class="opponent-1">France</div>
-			<div class="opponent-2"></div>
-			<div class="date">3 Nov. 2018</div>
-			<div class="heure">21h30</div>
-			<div class="score1"></div>
-			<div class="score2"></div>
-			<div class="replay"></div>
-		</div>
-		
-		
-		<!-- Medaille d'or -->
-		<div class="">
-			<div class="opponent-1">France</div>
-			<div class="opponent-2"></div>
-			<div class="date">3 Nov. 2018</div>
-			<div class="heure">23h45</div>
-			<div class="score1"></div>
-			<div class="score2"></div>
-			<div class="replay"></div>
-		</div>
-	</body>
-</html>	
+<style>
+@font-face {
+font-family: 'Dolce Vita';
+src: url('fonts/Dolce Vita.ttf');
+}
+#reminderContainer {
+width: 0px;
+height: 0px;
+background: #769272;
+position: absolute;
+top: 0px;
+left: 0px;
+overflow: hidden;
+color: white;
+font-family: 'Dolce Vita';
+-webkit-box-shadow: 0px 0px 20px #4d6849;
+-webkit-animation-name: animateReminder;
+-webkit-animation-duration: 10s;
+-webkit-animation-delay: 20s;
+-webkit-animation-iteration-count: 1;
+
+}
+#reminderHeader {
+width: 300px;
+height: 26px;
+background: #4d6849;
+position: relative;
+overflow: hidden;
+text-align: center;
+font-size: 24px;
+}
+#reminderContent {
+width: 300px;
+height: 94px;
+background: #769272;
+position: relative;
+overflow: hidden;
+color: white;
+}
+#twitterLogo {
+width: 90px;
+height: 90px;
+float: left;
+}
+
+@-webkit-keyframes animateReminder {
+0%, 100% {
+width: 0px;
+height: 24px;
+}
+20%, 80% {
+width: 300px;
+height: 24px;
+}
+30%, 70% {
+width: 300px;
+height: 120px;
+}
+}
+</style>
+</head>
+<body>
+<div id="reminderContainer">
+<div id="reminderHeader">
+<span>Follow</span>
+</div>
+
+<div id="reminderContent">
+
+<div="reminderContentText">
+<span>
+<br>
+<font size="5">
+If you're having a good time<br>
+then love tap that button
+</font>
+</span>
+</div>
+</div>
+</div>
+</body>
+</html>
