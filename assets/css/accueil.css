@@ -1,0 +1,13 @@
+article{
+	display:flex;
+	font-size:60px;
+	flex-wrap:wrap;
+}
+
+article p{
+	padding-right:10px;
+}
+
+#menu_comp img{
+	max-height:150px;
+}
